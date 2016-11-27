@@ -97,7 +97,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/background_cover.JPG") no-repeat;
+  background: url("../img/background_cover.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -358,7 +358,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("../img/background_cover.JPG") no-repeat;
+  background: url("../img/background_cover.png") no-repeat;
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
