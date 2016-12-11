@@ -14,7 +14,3 @@ Warning: The following might contain answers to your assignment. Proceed with ca
 
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYbVR2Yi1USmxBYUU/preview" width="100%" height="480"></iframe>
 
-
-
-
-
