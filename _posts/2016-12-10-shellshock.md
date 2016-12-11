@@ -14,3 +14,5 @@ Warning: The following might contain answers to your assignment. Proceed with ca
 
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYbVR2Yi1USmxBYUU/preview" width="100%" height="480"></iframe>
 
+Q: How did you embed a pdf into your post?
+A: This guy taught me <a href="http://jamesonzimmer.com/simple-pdf-embed-for-jekyll/">http://jamesonzimmer.com/simple-pdf-embed-for-jekyll/</a>
