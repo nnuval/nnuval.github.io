@@ -4,6 +4,7 @@ title: What is this?
 ---
 ### Welcome to my blog!
 You're probably asking yourself "Uhh hey Nate... what's this all about?" Good question friend.
+
 #### My blog is for:
 
 1. Talking about some of the interesting things i've learned throughout my life
