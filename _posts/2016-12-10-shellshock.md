@@ -12,4 +12,4 @@ Which can be found here http://www.cis.syr.edu/~wedu/seed/Labs_12.04/Software/Sh
 
 Warning: The following might contain answers to your assignment. Proceed with caution if your school considers this cheating.
 
-![Shellshock lab write up]({{ site.url }}/assets/Shellshock.pdf)
+![Shellshock lab write up](/assets/Shellshock.pdf)
