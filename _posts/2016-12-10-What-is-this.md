@@ -7,7 +7,7 @@ author: Nate Nuval
 You're probably asking yourself "Uhh hey Nate... what's this all about?" Good question friend.
 
 
-### My blog is for:
+#### My blog is for:
 
 1. Talking about some of the interesting things i've learned throughout my life
 2. Showcasing some of my projects
