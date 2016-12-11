@@ -1,9 +1,11 @@
 ---
 layout: post
 title: What is this?
+author: Nate Nuval
 ---
 ### Welcome to my blog!
 You're probably asking yourself "Uhh hey Nate... what's this all about?" Good question friend.
+
 
 ### My blog is for:
 
