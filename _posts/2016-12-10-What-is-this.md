@@ -16,5 +16,6 @@ You're probably asking yourself "Uhh hey Nate... what's this all about?" Good qu
 ...and maybe this is graded. BUT it's not about the grade.
 The usefulness of this assignment goes far beyond an A or a 100%. Before this I did not know that you could host a site
 on GitHub (thank you GitHub for your generosity). I didn't know what Jekyll was or how awesome Jekyll is 
-(thank you Jekyll for your awesomeness). Thank you Dr. Zacharski for an assignment that will benefit me as a working 
-professional.
+(thank you Jekyll for your awesomeness). And thank you Dr. Zacharski for an assignment that will benefit me as a working 
+professional. So feel free to peruse around. If there is a typo, incorrect information, or if you are curious about anything
+you find here send me an email natenuval@yahoo.com.
