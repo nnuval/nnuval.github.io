@@ -13,7 +13,7 @@ author: "Nate Nuval"
  GameSalad made the programming, and publishing easy. All the characters were created using photoshop. So far I have one game 
  available on the Google Play store, Windy City Red Hots: The Game.
  
- ![wcrhtg](/assets/wcrhtg.png)
+<img src="/assets/wcrhtg.png" width="100" hieght="200"/>
  
  The game is based off of my family’s restaurant where we serve classic Chicago street food. A Windy City Red Hot (a traditional 
  Chicago-style hotdog) comes with mustard, relish, onions, tomatoes, sport peppers, pickles, and celery salt.
