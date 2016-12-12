@@ -29,6 +29,7 @@ V passes the information to C. Under V, underlined with red is
 </form>
 '''
 
+
 When a submit action occurs, it will 
 have the 'processLogin()' function handle that event (you can see that function under C, underlined with red as well). The information
 being handled is underlined with green and yellow. Under V, these are declared with 'ng-model="name2"'. These are referenced under C 
