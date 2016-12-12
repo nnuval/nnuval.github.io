@@ -30,3 +30,10 @@ being handled is underlined with green and yellow. Under V, these are declared w
 with '$scope.name2'.
 
 ![vtoc](/assets/vtoc.PNG)
+
+
+C passes the information to M with 'socket.emit('login', ---, ---);'. M receives the information with '@socketio.on('login', ---)'
+'login' is the name I gave this socket event. This needs to match in both the M and C. The 'def on_login(un, pw):' under M takes two 
+arguments. The '$scope.name2', and the '$scope.password' are the two arguments passed. 
+
+![ctom](/assets/ctom.PNG)
