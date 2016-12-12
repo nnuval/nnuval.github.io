@@ -48,3 +48,11 @@ After M checks if the information matches in the database, it sends it's respons
 Here we are calling a js function. We are getting the element 'popupbox' and changing it's visibility.
 
 ![ctov](/assets/ctov.PNG)
+
+
+Basically "emit" is used to call functions in both directions between M and C. If M calls 'emit('foo', x, y, z)', then 
+C would receive that with 'socket.on('foo', function(a, b, c){'. If C were to call 'socket.emit('wubalubadubdub');',
+then M would receive that with: 
+
+@socketio.on('wubalubadubdub')
+def on_wuba():
