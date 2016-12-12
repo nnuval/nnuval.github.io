@@ -52,7 +52,7 @@ ng-model="name2"
 These are referenced under C 
 with 
 
-{% highlight %}
+{% highlight ruby %}
 $scope.name2
 {% endhighlight %}
 
