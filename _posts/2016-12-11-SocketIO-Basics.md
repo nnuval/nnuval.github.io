@@ -18,6 +18,8 @@ Here is how a popup login box is handled:
 
 So you've entered your username and password.
 
+![vtoc](/assets/vtoc.PNG)
+
 V passes the information to C. Under V, underlined with red is 
 
 
@@ -32,20 +34,20 @@ have the 'processLogin()' function handle that event (you can see that function 
 being handled is underlined with green and yellow. Under V, these are declared with 'ng-model="name2"'. These are referenced under C 
 with '$scope.name2'.
 
-![vtoc](/assets/vtoc.PNG)
+![ctom](/assets/ctom.PNG)
 
 
 C passes the information to M with 'socket.emit('login', ---, ---);'. M receives the information with '@socketio.on('login', ---)'
 'login' is the name I gave this socket event. This needs to match in both the M and C. The 'def on_login(un, pw):' under M takes two 
 arguments. The '$scope.name2', and the '$scope.password' are the two arguments passed. 
 
-![ctom](/assets/ctom.PNG)
 
+![mtoc](/assets/mtoc.PNG)
 
 After M checks if the information matches in the database, it sends it's response back to C. If the info does not match it does
 'emit('logfail', ---)'. If it does match, 'emit('logsuc', ---)' is executed. C receives catches these with 'socket.on'. Notice the matching names in both M and C.
 
-![mtoc](/assets/mtoc.PNG)
+
 
 
 Here we are calling a js function. We are getting the element 'popupbox' and changing it's visibility.
