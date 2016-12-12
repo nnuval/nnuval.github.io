@@ -23,11 +23,13 @@ So you've entered your username and password.
 V passes the information to C. Under V, underlined with red is 
 
 
-'''html
-<form ng-submit="processLogin()" >
-
+```html
+<form ng-submit="processLogin()">
+   -
+   -
+   -
 </form>
-'''
+```
 
 
 When a submit action occurs, it will 
