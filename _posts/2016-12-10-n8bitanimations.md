@@ -18,14 +18,14 @@ author: "Nate Nuval"
  The game is based off of my family’s restaurant where we serve classic Chicago street food. A Windy City Red Hot (a traditional 
  Chicago-style hotdog) comes with mustard, relish, onions, tomatoes, sport peppers, pickles, and celery salt.
  
- ![wcrh](/assets/wcrh.jpg)
+ <img src="/assets/wcrh.jpg" width="200px" hieght="100px"/>
 Never ketchup! Putting ketchup on a hotdog is a sin. That is the basic idea of the game. 
 
 
 The first thing I animated was the Windy City Red Hots food truck.
 
-![realtruck](/assets/truck.jpg)
-![wcrhtruck](/assets/WCRH Truck.png)
+<img src="/assets/truck.jpg" width="200px" hieght="100px"/>
+<img src="/assets/WCRH Truck.png" width="200px" hieght="100px"/>
 
 The rest is history!
 
