@@ -13,22 +13,22 @@ author: "Nate Nuval"
  GameSalad made the programming, and publishing easy. All the characters were created using photoshop. So far I have one game 
  available on the Google Play store, Windy City Red Hots: The Game.
  
-<img src="/assets/wcrhtg.png" width="100px"/>
+<img src="/assets/wcrhtg.png" width="50%"/>
  
  The game is based off of my family’s restaurant where we serve classic Chicago street food. A Windy City Red Hot (a traditional 
  Chicago-style hotdog) comes with mustard, relish, onions, tomatoes, sport peppers, pickles, and celery salt.
  
- <img src="/assets/wcrh.jpg" width="200px"/>
+ <img src="/assets/wcrh.jpg" width="50%"/>
 
 Never ketchup! Putting ketchup on a hotdog is a sin. That is the basic idea of the game. 
 
 
 The first thing I animated was the Windy City Red Hots food truck.
 
-<img src="/assets/truck.jpg" width="200px"/>
-<img src="/assets/WCRH Truck.png" width="200px"/>
+<img src="/assets/truck.jpg" width="25%"/>
+<img src="/assets/WCRH Truck.png" width="25%"/>
 
-The rest is history!
+
 
 If you have an android device check out: 
 
