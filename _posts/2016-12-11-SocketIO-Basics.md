@@ -37,3 +37,9 @@ C passes the information to M with 'socket.emit('login', ---, ---);'. M receives
 arguments. The '$scope.name2', and the '$scope.password' are the two arguments passed. 
 
 ![ctom](/assets/ctom.PNG)
+
+
+After M checks if the information matches in the database, it sends it's response back to C. If the info does not match it does
+'emit('logfail', ---)'. If it does match, 'emit('logsuc', ---)' is executed. C receives catches these with 'socket.on'. Notice the matching names in both M and C.
+
+![mtoc](/assets/mtoc.PNG)
