@@ -44,9 +44,17 @@ $scope.processLogin = function processLogin(){
 {% endhighlight %}
 
 function handle that event (you can see that function under C, underlined with red as well). The information
-being handled is underlined with green and yellow. Under V, these are declared with 'ng-model="name2"'. These are referenced under C 
-with '$scope.name2'.
+being passed is underlined with green and yellow. Under V, these are declared with 
 
+```html
+ng-model="name2"
+```
+These are referenced under C 
+with 
+
+{% highlight %}
+$scope.name2
+{% endhighlight %}
 
 ![ctom](/assets/ctom.PNG)
 
