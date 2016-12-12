@@ -43,3 +43,8 @@ After M checks if the information matches in the database, it sends it's respons
 'emit('logfail', ---)'. If it does match, 'emit('logsuc', ---)' is executed. C receives catches these with 'socket.on'. Notice the matching names in both M and C.
 
 ![mtoc](/assets/mtoc.PNG)
+
+
+Here we are calling a js function. We are getting the element 'popupbox' and changing it's visibility.
+
+![ctov](/assets/ctov.PNG)
