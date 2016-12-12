@@ -21,7 +21,9 @@ So you've entered your username and password.
 V passes the information to C. Under V, underlined with red is 
 
 {% highlight ruby %}
+
 ng-submit="processLogin()" 
+
 {% endhighlight %}
 
 When a submit action occurs, it will 
