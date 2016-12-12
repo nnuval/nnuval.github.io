@@ -10,8 +10,12 @@ where he goes through step by step starting from scratch. Think of this as a sup
 the basic idea. The trickiest thing for me to understand was how "emit" works and how does the Model View Controller (MVC) 
 paradigm apply.
 
-I like to think of MVC as three people who have to work together. Two of them don't like each other (M and V) so one of them (C) is 
+I like to think of MVC as three people who have to work together. Two of them don't like each other (M and V), so one of them (C) is 
 stuck playing the middle man in the group. 
 
 ![mvc](/assets/mvc.PNG)
 
+Q: Can tasks be accoplished if 2 out of 3 people don't like each other?
+A: In this case Yes. 
+
+Here is how a popup login box is handled:
