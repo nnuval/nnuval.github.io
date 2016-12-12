@@ -56,12 +56,28 @@ with
 $scope.name2
 {% endhighlight %}
 
+
 ![ctom](/assets/ctom.PNG)
 
+C passes the information to M with 
 
-C passes the information to M with 'socket.emit('login', ---, ---);'. M receives the information with '@socketio.on('login', ---)'
-'login' is the name I gave this socket event. This needs to match in both the M and C. The 'def on_login(un, pw):' under M takes two 
-arguments. The '$scope.name2', and the '$scope.password' are the two arguments passed. 
+{% highlight ruby %}
+socket.emit('login', ---, ---); 
+{% endhighlight %}
+
+M receives the information with 
+
+{% highlight ruby %}
+@socketio.on('login', ---)
+{% endhighlight %}
+
+'login' is the name I gave this socket event. This needs to match in both the M and C. The 
+
+{% highlight ruby %}
+'def on_login(un, pw):' 
+{% endhighlight%}
+
+under M takes two arguments. The '$scope.name2', and the '$scope.password' are the two arguments passed. 
 
 
 ![mtoc](/assets/mtoc.PNG)
