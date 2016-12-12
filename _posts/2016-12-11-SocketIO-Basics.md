@@ -104,10 +104,27 @@ Here we are calling a js function. We are getting the element 'popupbox' and cha
 
 
 
-Basically "emit" is used to call functions in both directions between M and C. If M calls 'emit('foo', x, y, z)', then 
-C would receive that with 'socket.on('foo', function(a, b, c){'. If C were to call 'socket.emit('wubalubadubdub');',
-then M would receive that with: 
+Basically "emit" is used to call functions in both directions between M and C. If M calls 
 
+{% highlight ruby %}
+emit('foo', x, y, z)
+{% endhighlight %}
+
+then C would receive that with 
+
+{% highlight ruby %}
+socket.on('foo', function(a, b, c){
+{% endhighlight %}
+
+If C were to call
+
+{% highlight ruby %}
+socket.emit('wubalubadubdub');
+{% endhighlight %}
+
+then M would receive that with
+
+{% highlight ruby %}
 @socketio.on('wubalubadubdub')
-
 def on_wuba():
+{% endhighlight %}
