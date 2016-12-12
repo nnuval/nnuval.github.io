@@ -16,6 +16,8 @@ stuck playing the middle man in the group.
 ![mvc](/assets/mvc.PNG)
 
 Q: Can tasks be accoplished if 2 out of 3 people don't like each other?
+
 A: In this case Yes. 
+
 
 Here is how a popup login box is handled:
