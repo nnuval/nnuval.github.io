@@ -6,7 +6,7 @@ author: "Nate Nuval"
  
  In 2014 I created n8bitanimations, a company that designs and develops games for mobile devices.
  
- ![n8bitlogo](/assets/n8bitlogo.png =200x)
+ ![n8bitlogo](/assets/n8bitlogo.png){:width="50%"}
  
  I was looking for a hobby that uses the skills that I’ve obtained throughout my computer science education and that involves 
  creativity and artwork. The game itself was built with GameSalad Creator, a visual editor and a behavior-based logic system. 
