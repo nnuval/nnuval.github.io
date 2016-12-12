@@ -23,7 +23,7 @@ You have cloned the repository:
 At this point you have these folders and files
 
 
-![Folders and Files](/assets/socket.PNG)
+<i href="/assets/socket.PNG"></i>
 
 
 h
