@@ -14,11 +14,14 @@ So you're following the tutorial and you've installed:
 - Flask
 - Flask-SocketIO
 
+
 You have cloned the repository:
 
 - git clone https://github.com/zacharski/ISSchat.git
 
+
 At this point you have these folders and files
+
 ![Folders and Files](/assets/socket.PNG)
 
 
