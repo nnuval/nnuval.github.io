@@ -55,4 +55,5 @@ C would receive that with 'socket.on('foo', function(a, b, c){'. If C were to ca
 then M would receive that with: 
 
 @socketio.on('wubalubadubdub')
+
 def on_wuba():
