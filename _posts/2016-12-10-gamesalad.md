@@ -27,3 +27,17 @@ The first thing I animated was the Windy City Red Hots food truck.
 
 ![realtruck](/assets/truck.jpg)
 ![wcrhtruck](/assets/WCRH Truck.png)
+
+The rest is history!
+
+If you have an android device check out: 
+
+
+- <a href="https://play.google.com/store/apps/details?id=com.n8bitanimations.windycityredhotsthegame">Windy City Red Hots: The Game</a> 
+
+
+Check out <a href="https://www.facebook.com/n8bitanimations/">n8bitanimations</a> on facebook.
+
+If you are intereted in making a mobile game, whether you are a beginner or not, GameSalad's GUI made it incredible simple to build 
+games. 
+
