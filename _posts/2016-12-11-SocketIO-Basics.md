@@ -9,5 +9,9 @@ This post isn't a tutorial; Dr. Zacharski has an excellent video tutorial <a hre
 where he goes through step by step starting from scratch. Think of this as a supplemental guide to help you understand 
 the basic idea.
 
+So you're following the tutorial and you've installed:
+
+- Flask
+- Flask-SocketIO
 
 
