@@ -74,7 +74,7 @@ M receives the information with
 'login' is the name I gave this socket event. This needs to match in both the M and C. The 
 
 {% highlight ruby %}
-'def on_login(un, pw):' 
+def on_login(un, pw):
 {% endhighlight%}
 
 under M takes two arguments. The '$scope.name2', and the '$scope.password' are the two arguments passed. 
@@ -82,8 +82,20 @@ under M takes two arguments. The '$scope.name2', and the '$scope.password' are t
 
 ![mtoc](/assets/mtoc.PNG)
 
+
 After M checks if the information matches in the database, it sends it's response back to C. If the info does not match it does
-'emit('logfail', ---)'. If it does match, 'emit('logsuc', ---)' is executed. C receives catches these with 'socket.on'. Notice the matching names in both M and C.
+
+{% highlight ruby %}
+emit('logfail', ---)
+{% endhighlight %}
+
+If it does match, 
+
+{% highlight ruby %}
+emit('logsuc', ---) 
+{% endhighlight %}
+
+is executed. C receives catches these with 'socket.on'. Notice the matching names in both M and C.
 
 
 
