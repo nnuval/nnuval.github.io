@@ -10,7 +10,7 @@ bugs in a program can lead to information being stolen, privileged data being ac
 even complete control of a computer remotely! The following is my write up for a lab based off of the SEED lab "Shellshock".
 Which can be found here <a href="http://www.cis.syr.edu/~wedu/seed/Labs_12.04/Software/Shellshock/">http://www.cis.syr.edu/~wedu/seed/Labs_12.04/Software/Shellshock/</a>
 
-Warning: The following might contain answers to your assignment. Proceed with caution if your school considers this cheating.
+Warning: The following might contain answers to your assignment.
 
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYbVR2Yi1USmxBYUU/preview" width="100%" height="480"></iframe>
 
