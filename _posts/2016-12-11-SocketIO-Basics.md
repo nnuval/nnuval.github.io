@@ -21,3 +21,9 @@ A: In this case Yes.
 
 
 Here is how a popup login box is handled:
+
+So you've entered your username and password.
+
+V passes the information to C. 
+
+![vtoc](/assets/vtoc.PNG)
