@@ -98,11 +98,10 @@ emit('logsuc', ---)
 is executed. C receives catches these with 'socket.on'. Notice the matching names in both M and C.
 
 
-
+![ctov](/assets/ctov.PNG)
 
 Here we are calling a js function. We are getting the element 'popupbox' and changing it's visibility.
 
-![ctov](/assets/ctov.PNG)
 
 
 Basically "emit" is used to call functions in both directions between M and C. If M calls 'emit('foo', x, y, z)', then 
