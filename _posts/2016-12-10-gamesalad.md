@@ -1,7 +1,11 @@
 ---
 layout: post
-title: "Gamesalad, Photoshop, and some self-promotion"
+title: "My Passion Project: N8bitAnimations"
 author: "Nate Nuval"
 ---
-
-Two parts Comp Sci logic, One part photoshop, and a sprinkle of creativity. 
+ 
+ In 2014 I created n8bitanimations, a company that designs and develops games for mobile devices.
+ 
+ ![n8bitlogo](/assets/n8bitlogo.png)
+ 
+ 
