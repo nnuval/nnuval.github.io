@@ -50,16 +50,19 @@ The memory system contains the screen memory, RAM, and the inputs for the button
 ![CPU2](/assets/CPU2.png)
 
 Here we have all the components connected. 
+
 Red = Fetch
+
 Blue = Decode
+
 Orange = Read
+
 Green = Execute
+
 Purple = Memory
 
 Here is a video of my CPU running with a Pong program my professor wrote.
-<video autoplay="autoplay" loop="loop"a width="768" height="512">
-  <source src="/assets/CPUPong.mp4" type="video/mp4">
-  <--<source src="/assets/CPUPong.webm" type="video/webm">-->
-</video>
+![CPUPong](/assets/CPUPong.mp4)
+
 
 I would love to go back and write some programs for this CPU.
