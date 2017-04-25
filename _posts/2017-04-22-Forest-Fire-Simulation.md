@@ -26,7 +26,7 @@ The “8” passed is the number of processes that we want to use in the program
 The forest fire simulation we created takes four other arguments:
 “random.txt” is the “forest” that this program uses. It is simply text files consisting of 40 rows and 80 columns. 
 
-![randomForest](/assets/randomForest.png)
+<img src="/assets/randomForest.png" alt="randomForest" style="width: 70%;"/>
 
 In the file a “T” represents a tree and an “X” represents a burning tree.
 
