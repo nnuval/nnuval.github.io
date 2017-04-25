@@ -52,6 +52,7 @@ The memory system contains the screen memory, RAM, and the inputs for the button
 Here we have all the components connected. 
 
 Red = Fetch
+
 Blue = Decode
 Orange = Read
 Green = Execute
