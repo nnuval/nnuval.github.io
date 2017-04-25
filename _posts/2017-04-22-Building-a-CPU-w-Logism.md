@@ -58,8 +58,6 @@ Green = Execute<br />
 Purple = Memory<br />
 
 Here is a video of my CPU running with a Pong program my professor wrote.
-
-<iframe width="420" height="315" src="" frameborder="0" allowfullscreen></iframe>
-
+<iframe src="https://drive.google.com/file/d/0B55hEujmzuNYX3BJMVY0QVZpYm8/preview" width="640" height="480"></iframe>
 
 I would love to go back and write some programs for this CPU.
