@@ -58,7 +58,8 @@ Green = Execute<br />
 Purple = Memory<br />
 
 Here is a video of my CPU running with a Pong program my professor wrote.
-![CPUPong](/assets/CPUPong.mp4)
+<iframe width="420" height="315" src="https://github.com/nnuval/nnuval.github.io/blob/master/assets/CPUPong.mp4" frameborder="0" allowfullscreen></iframe>
+
 
 
 I would love to go back and write some programs for this CPU.
