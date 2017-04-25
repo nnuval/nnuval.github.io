@@ -57,7 +57,7 @@ When you initialize MPI, each processes gets it’s own copy of the same code. M
 To divide the work as evenly as possible we use the size and rank to partition the sections of the forest each process will be examining.
 
 {% highlight ruby%}
-/* calculate the start and end points by evenly dividing the range */
+	/* calculate the start and end points by evenly dividing the range */
 	int start = (3240/ size) * rank;
 	int end = start + (3240/size) - 1;
 	
@@ -70,7 +70,7 @@ To divide the work as evenly as possible we use the size and rank to partition t
 We then run the simulation:
 
 {% highlight ruby %}
-/* runs the simulation based on the number of generations */
+		/* runs the simulation based on the number of generations */
 		for(curGen = 0; curGen < N; curGen++){	
 {% endhighlight %}
 This line of code essentially loops through the file, making all of the necessary changes, until it reaches the number of generations the user has passed in.
@@ -78,7 +78,7 @@ This line of code essentially loops through the file, making all of the necessar
 Each process takes care of it’s own section:
 
 {% highlight ruby %}
-int row = 0; // row index
+		int row = 0; // row index
 		int col = 0; // column index
 
 		/* runs through each cell in the array */
@@ -101,7 +101,7 @@ int row = 0; // row index
 
 Since each the result of a tree depends on it’s neighbors we need to pass the neighboring rows between all of the processes.
 {% highlight ruby %}
-/* Pass rows to neighboring processes */
+		/* Pass rows to neighboring processes */
 		temp = 0;
 		for(k = 0; k < (size-1); k++){
 {% endhighlight %}
@@ -170,7 +170,7 @@ If they are not we check if they are the next process (process #1 in this case).
 Here is where the message passing begins. If you are process #0 then you run:
 
 {% highlight ruby%}
-/* Send the last row to the neighbor below */
+				/* Send the last row to the neighbor below */
 				MPI_Send(partial, 81, MPI_CHAR, (temp+1), 0, MPI_COMM_WORLD);
 				
 				/* Receive the row from the neighbor below */
@@ -181,7 +181,7 @@ Here is where the message passing begins. If you are process #0 then you run:
 If you are the next process, in this case process #1 then you run:
 
 {% highlight ruby %}
-/* Receive the row from the neighbor above */
+				/* Receive the row from the neighbor above */
 				MPI_Recv(partial, 81, MPI_CHAR, temp, 0, MPI_COMM_WORLD, 
 						&status);
 				…
