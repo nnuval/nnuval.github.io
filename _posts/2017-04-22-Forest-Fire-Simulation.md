@@ -7,7 +7,7 @@ One of my favorite assignments in the Parallel Programming course I took was the
 This post is going to address some of the basic functionality of the forest fire simulation as well as how MPI was used. 
 
 Here is a link to the full program:
-<a href=”https://github.com/nnuval/425cpsc/blob/master/forestFire.c”>forestFire.c</a>
+<a href="https://github.com/nnuval/425cpsc/blob/master/forestFire.c">forestFire.c</a>
 
 To compile a C program that uses MPI, use this command:
 
@@ -73,7 +73,6 @@ We then run the simulation:
 /* runs the simulation based on the number of generations */
 		for(curGen = 0; curGen < N; curGen++){	
 {% endhighlight %}
-
 This line of code essentially loops through the file, making all of the necessary changes, until it reaches the number of generations the user has passed in.
 
 Each process takes care of it’s own section:
@@ -101,16 +100,14 @@ int row = 0; // row index
 {% endhighlight %}
 
 Since each the result of a tree depends on it’s neighbors we need to pass the neighboring rows between all of the processes.
-
 {% highlight ruby %}
 /* Pass rows to neighboring processes */
 		temp = 0;
 		for(k = 0; k < (size-1); k++){
 {% endhighlight %}
-
 This loop runs 1 less than the number of processes.
-Here is where the MPI magic happens
 
+Here is where the MPI magic happens
 {% highlight ruby %}
 			if(rank == temp){
 				
