@@ -12,16 +12,20 @@ The following are a series of short videos showing our application at work.
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYTXJRZjdCODNaVEU/preview" width="640" height="480"></iframe>
 
 
+
 #### Loading in a data set, saving a data set, and loading a saved data set 
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYZFRLZkMwVUtvbGM/preview" width="640" height="480"></iframe>
+
 
 
 #### Selecting the mice present in the data set that you want to use in the heat map
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYbTl2dmdyb0RIcVE/preview" width="640" height="480"></iframe>
 
 
+
 #### Generating a heat map
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYWHVCbDRBaGlZQ3M/preview" width="640" height="480"></iframe>
+
 
 
 This was the first time my team members and I created a standalone Java application with a GUI. Our program also uses Python, Plot.ly and JavaScript. Although we are very proud of our application, there were some basic functionality that we were not able to complete. The ability to select the start and end times was not finished, exporting the map as an image was not completed, and in order to generate a new map, the user has to close out the entire application. If I could go back and do this project again, I would have dedicated more time to it. Building GUI’s and using different languages in one application was new to us. A lot of the time was dedicated to learning how to do everything. Still, I think we have a pretty cool prototype.
