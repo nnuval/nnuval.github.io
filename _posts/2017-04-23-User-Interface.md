@@ -19,7 +19,7 @@ What other features should be present? <br />
 Which of the things you have told me would be of highest importance to you?
 
 I took the ideas that all 4 interviews had in common as well as the things that the individuals claimed were of high importance and designed a UI.
-![UIFull](/assets/UIfullv1.png)
+<img src="/assets/UIfullv1.png" alt="UIFull" style="width: 70%;"/>
 
 Everyone stated that:
 The map should be center-rightish of the app.<br />
@@ -28,19 +28,19 @@ Animation controls should work similarly to YouTube.<br />
 A map key should be on the right of the map.
 
 
-![UIFile](/assets/UIfilev1.png)
+<img src="/assets/UIfilev1.png" alt="UIFile" style="width: 70%;"/>
 
 Functions for importing the data, saving the data set, and exporting the map should be available in the file menu drop down.
 
 
-![UIData](/assets/UIdatav1.png)
+<img src="/assets/UIdatav1.png" alt="UIData" style="width: 70%;"/>
 
 Functions for changing between a Heat map and a Vector map should be present as well.
 
 
 After creating these UI designs, I showed each person what I created. I was exactly what they were expecting. The only suggestions they had were some form of labeling each box in the grid.
 
-![UIv2](/assets/UIv2.png)
+<img src="/assets/UIv2.png" alt="UIv2" style="width: 70%;"/>
 
 So I returned to them with this.
 
