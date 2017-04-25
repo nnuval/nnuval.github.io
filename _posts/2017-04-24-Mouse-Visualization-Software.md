@@ -8,19 +8,19 @@ If you are looking for more information on our project check this post out: <a h
 
 The following are a series of short videos showing our application at work.
 
-Opening the software outside of an IDE
+#### Opening the software outside of an IDE
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYTXJRZjdCODNaVEU/preview" width="640" height="480"></iframe>
 
 
-Loading in a data set, saving a data set, and loading a saved data set 
+#### Loading in a data set, saving a data set, and loading a saved data set 
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYZFRLZkMwVUtvbGM/preview" width="640" height="480"></iframe>
 
 
-Selecting the mice present in the data set that you want to use in the heat map
+#### Selecting the mice present in the data set that you want to use in the heat map
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYbTl2dmdyb0RIcVE/preview" width="640" height="480"></iframe>
 
 
-Generating a heat map
+#### Generating a heat map
 <iframe src="https://drive.google.com/file/d/0B55hEujmzuNYWHVCbDRBaGlZQ3M/preview" width="640" height="480"></iframe>
 
 
