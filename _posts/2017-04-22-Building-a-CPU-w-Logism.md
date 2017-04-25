@@ -52,13 +52,9 @@ The memory system contains the screen memory, RAM, and the inputs for the button
 Here we have all the components connected. 
 
 Red = Fetch
-
 Blue = Decode
-
 Orange = Read
-
 Green = Execute
-
 Purple = Memory
 
 Here is a video of my CPU running with a Pong program my professor wrote.
