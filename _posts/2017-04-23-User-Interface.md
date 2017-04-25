@@ -10,7 +10,7 @@ You can learn about that and our plan on building it over here on this blog post
 Because our software needed to have an intuitive graphical user interface, a usability study was beneficial to our project. 
 I interviewed 4 people in my study. The first thing I did was gave them a background on what the software is designed to do, and who would be using it. I then put them in the shoes of the user stating, you have just opened the application, imported your data, defined the grid, and selected the mice you would like to see. I gave them this blank skeleton and began to jot down there thoughts and ideas.
 ![UI](/assets/UI.png =200x)
-<img src="/assets/UI.png" alt="UI" style="width: 200px;"/>
+<img src="/assets/UI.png" alt="UI" style="width: 50%;"/>
 The main things I was looking for was: 
 
 Where would the map go?<br /> 
