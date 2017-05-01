@@ -81,6 +81,7 @@ header .navbar-default {
 }
 header .navbar-default .navbar-nav {
   padding-top: 10px;
+  font-weight: bold;
 }
 header .navbar-default .navbar-nav li a {
   color: #333333;
