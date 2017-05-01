@@ -65,7 +65,7 @@ a:active {
 	Header Start
 --*/
 header {
-  background: #fff;
+  background: #000000;
   padding: 5px 0;
 }
 header .navbar {
@@ -84,7 +84,7 @@ header .navbar-default .navbar-nav {
   font-weight: bold;
 }
 header .navbar-default .navbar-nav li a {
-  color: #333333;
+  color: #e2e2e3;
   padding: 10px 26px;
   font-size: 15px;
 }
