@@ -775,10 +775,10 @@ font header .navbar-default .navbar-nav li a:hover {
 	footer Start
 --*/
 footer {
-  background: #F5F5F5;
+  background: #000000;
   text-align: center;
-  padding-top: 48px;
-  padding-bottom: 55px;
+  padding-top: 18px;
+  padding-bottom: 25px;
 }
 footer p {
   font-size: 13px;
